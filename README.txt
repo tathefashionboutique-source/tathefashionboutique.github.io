@@ -29,3 +29,7 @@ Owner: Kavita Rana
 Phone: 8178486174 / 8700620263
 WhatsApp: +91 8178486174
 Address: KRYSTAL HEIGHT, Flat No. 212, Third Floor, Tower B, behind ACE CITY, Sector 1, Aimnabad, Bisrakh Jalalpur, Uttar Pradesh 201318
+
+
+FREE GOOGLE SEO UPDATE
+See SEO-SETUP.txt for the exact publishing and Search Console steps. sitemap.xml has been added for the GitHub Pages project-site URL.
