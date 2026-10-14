@@ -106,19 +106,3 @@ document.getElementById("photoUpload").addEventListener("change",event=>{
   if(files.length===0) preview.innerHTML='<p class="upload-note">No image files selected.</p>';
 });
 makeCategories();
-
-// Review feedback form: creates a pre-filled WhatsApp message; no fake/public review is stored.
-const reviewForm = document.getElementById("reviewForm");
-if (reviewForm) {
-  reviewForm.addEventListener("submit", function (event) {
-    event.preventDefault();
-    const name = document.getElementById("reviewName").value.trim();
-    const rating = document.getElementById("reviewRating").value;
-    const comment = document.getElementById("reviewComment").value.trim();
-    if (!name || !rating || !comment) return;
-    const stars = "★".repeat(Number(rating)) + "☆".repeat(5 - Number(rating));
-    const message = `TA THE FASHION BOUTIQUE - Customer Feedback\nName: ${name}\nRating: ${stars} (${rating}/5)\nComment: ${comment}`;
-    document.getElementById("reviewSuccess").textContent = "Opening WhatsApp with your feedback. Please press Send in WhatsApp to submit it.";
-    window.open(`https://wa.me/918178486174?text=${encodeURIComponent(message)}`, "_blank", "noopener");
-  });
-}

@@ -4,12 +4,14 @@ Published website:
 https://tathefashionboutique-source.github.io/tathefashionboutique.github.io/
 
 SEO improvements included:
-- Descriptive page title and meta description
+- Updated descriptive page title and meta description focused on ladies tailoring, bridal wear and Greater Noida
 - Canonical URL for the GitHub Pages project site (without #home)
 - Open Graph metadata for sharing
 - Indexing directives
 - Local business structured data using the business details already present in the source
 - Crawlable service descriptions in the homepage text
+- Removed the WhatsApp customer-review/feedback form; reviews now link to Google only
+- Removed the review-form JavaScript that opened WhatsApp with customer feedback
 - sitemap.xml at the correct project-site path
 
 PUBLISHING
