@@ -14,7 +14,7 @@ const modalRange = document.getElementById("modalRange");
 const lightbox = document.getElementById("lightbox");
 const lightboxImage = document.getElementById("lightboxImage");
 const lightboxCaption = document.getElementById("lightboxCaption");
-const pad = n => String(n).padStart(2,"0");
+const pad = n => String(n).padStart(3,"0");
 const styleName = n => `STYLE${pad(n)}`;
 
 function makeCategories(){
@@ -30,7 +30,7 @@ function makeCategories(){
   });
 }
 function imagePath(n,cat,extension="jpg"){
-  return `images/${cat.folder}/${styleName(n)}.${extension}`;
+  return `Images/${styleName(n)}.${extension}`;
 }
 function makeStyleCard(n,cat){
   const card=document.createElement("button");
