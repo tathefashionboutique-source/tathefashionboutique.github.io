@@ -51,7 +51,7 @@
     <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
     <nav class="nav" id="nav">
       <a href="#home">Home</a><a href="#about">About</a><a href="#services">Services</a>
-      <a href="#gallery">Style Gallery</a><a href="#reviews">Google Reviews</a><a href="#contact">Contact</a>
+      <a href="#gallery">Style Gallery</a><a href="#happy-clients">Happy Clients</a><a href="#reviews">Google Reviews</a><a href="#contact">Contact</a>
       <a class="nav-cta" href="https://wa.me/918178486174?text=Hello%20TA%20THE%20FASHION%20BOUTIQUE%2C%20I%20would%20like%20to%20know%20more%20about%20your%20services." target="_blank" rel="noopener">WhatsApp</a>
     </nav>
   </div>
@@ -100,11 +100,14 @@
   <section class="section gallery" id="gallery"><div class="container">
     <div class="section-heading"><p class="eyebrow dark">OUR WORK</p><h2>Style <em>Gallery</em></h2><p>Explore bridal wear, designer blouse designs, festive suits, lehenga looks, custom fitting and kids wear. Contact us to discuss a custom outfit or stitching requirement.</p></div>
     <div class="gallery-grid" id="categoryGrid"></div>
-    <div class="upload-panel">
-      <div><h3>Preview Your Own Photos</h3><p>Select photos from your device to preview them here. This browser preview is temporary; to publish photos for every visitor, add them to the website's <code>images</code> folder and upload the updated site.</p></div>
-      <label class="btn btn-gold upload-btn">Choose Photos<input id="photoUpload" type="file" accept="image/*" multiple hidden></label>
-    </div>
-    <div id="uploadPreview" class="style-grid upload-preview" aria-live="polite"></div>
+    <div class="style-select-note"><strong>Pick &amp; Check a Style</strong><p>Open any collection, then select the styles you want to compare. Selected style numbers will appear here.</p><div id="selectedStyles" class="selected-styles" aria-live="polite">No styles selected yet.</div></div>
+  </div></section>
+
+  <section class="section happy-clients" id="happy-clients"><div class="container">
+    <div class="section-heading"><p class="eyebrow dark">REAL MOMENTS • HAPPY CUSTOMERS</p><h2>Happy <em>Clients</em></h2><p>Memories, outfits and moments shared by our valued customers.</p></div>
+    <div class="happy-tabs" role="group" aria-label="Choose happy clients media"><button type="button" class="btn btn-gold active" id="clientPhotosBtn">Photo Slideshow</button><button type="button" class="btn btn-outline-dark" id="clientVideosBtn">Video Slideshow</button></div>
+    <div class="client-slideshow" id="clientSlideshow"><div class="client-media-stage" id="clientMediaStage"><div class="client-empty"><strong>Happy Clients</strong><span>Add photos to HAPPY CLINTS/Pick</span></div></div><div class="client-slide-controls"><button type="button" id="clientPrev" aria-label="Previous slide">‹</button><span id="clientSlideLabel">HCP001</span><button type="button" id="clientNext" aria-label="Next slide">›</button><button type="button" id="clientPlay" aria-pressed="true">Pause slideshow</button></div></div>
+    <p class="client-folder-help">GitHub folders: <code>HAPPY CLINTS/Pick/HCP001.jpg</code> to <code>HCP100.jpg</code> and <code>HAPPY CLINTS/Video/HCV001.mp4</code> to <code>HCV100.mp4</code>. JPG/PNG photos and MP4 videos are supported.</p>
   </div></section>
 
   <section class="section why"><div class="container">
@@ -140,7 +143,7 @@
 </main>
 <footer><div class="container footer-grid">
   <div><a class="brand footer-brand" href="#home"><span class="brand-mark">TA</span><span><strong>TA THE FASHION</strong><small>BOUTIQUE</small></span></a><p>Your trust, our service — give us a chance to prove it.</p></div>
-  <div><h4>Explore</h4><a href="#about">About</a><a href="#services">Services</a><a href="#gallery">Style Gallery</a><a href="#reviews">Google Reviews</a><a href="#contact">Contact</a></div>
+  <div><h4>Explore</h4><a href="#about">About</a><a href="#services">Services</a><a href="#gallery">Style Gallery</a><a href="#happy-clients">Happy Clients</a><a href="#reviews">Google Reviews</a><a href="#contact">Contact</a></div>
   <div><h4>Connect</h4><a href="tel:+918178486174">8178486174</a><a href="tel:+918700620263">8700620263</a><a href="https://wa.me/918178486174" target="_blank" rel="noopener">WhatsApp</a><a href="https://www.google.com/maps/search/?api=1&query=KRYSTAL+HEIGHT+Flat+212+Tower+B+behind+ACE+CITY+Sector+1+Aimnabad+Bisrakh+Jalalpur+Uttar+Pradesh+201318" target="_blank" rel="noopener">Google Maps</a></div>
 </div><div class="copyright">© <span id="year"></span> TA THE FASHION BOUTIQUE. All rights reserved.</div></footer>
 <a class="floating-wa" href="https://wa.me/918178486174?text=Hello%20TA%20THE%20FASHION%20BOUTIQUE" target="_blank" rel="noopener" aria-label="Chat on WhatsApp">◉</a>
